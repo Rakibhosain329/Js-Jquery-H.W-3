@@ -1,0 +1,59 @@
+
+@media (min-width:320px) and (max-width:991px){
+    .hero-section {
+        margin-left: -425px;
+    }
+
+    .overlay {
+        margin-left: 425px;
+        height: 850px;
+    }
+
+    .navbar-brand img {
+        width: 50px;
+        height: 45px;
+    }
+
+    .nav-item{
+        text-align: end;
+
+    }
+
+    .navbar-toggler i{
+         font-size: 35px;
+    }
+
+    .hero-cnt h1 {
+        font-size: 43px;
+        font-weight: 800;
+    }
+    .hero-cnt p {
+        font-size: 19px;
+    }
+
+    .hero-cnt {
+        margin-top: 250px;
+    }
+    .journey-heading {
+        margin-top: 40px;
+    }
+    .journey-heading h2 {
+        font-size: 28px;
+    }
+    .leftArrow, .rightArrow {
+        top: 153%;
+        font-size: 20px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        line-height: 43px;
+    }
+
+    .leftArrow {
+        left: 20px;
+    }
+
+    .rightArrow {
+        right: 20px;
+    }
+}

@@ -1,0 +1,245 @@
+
+/* common css starts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+   list-style: none; 
+}
+
+a{
+    text-decoration: none;
+}
+
+/* common css ends */
+/* navbar css starts */
+  nav{
+    padding: 15px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  .navbar .navbar-toggler{
+    border:none;
+  }
+
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+
+.nav-item{
+    font-size: 25px;
+    font-family: oswald;
+    margin-left: 20px;
+}
+
+.nav-item a:hover{
+    color: #efba6c;
+}
+
+/* navbar css ends */
+
+/* hero section css starts */
+.hero-section{
+    margin-top: 10px;
+    background-image: url(../images/hero_1.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100vh;
+}
+
+
+ .hero-cnt{
+    margin-top: 150px;
+}
+
+.hero-cnt h1{
+    font-size: 68px;
+    font-family: oswald;
+    font-weight: 900;
+    color:#fff;
+}
+
+.hero-cnt p{
+    font-size: 20px;
+    color: #fff;
+    font-family: oswald;
+
+}
+
+ .overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 100%;
+    height: 745px;
+}
+
+.videoPlayer{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.08);
+    transition: 0.45s;
+}
+
+.videoPlayer:hover{
+    border: 2px solid gray;
+    background-color: #fff;
+}
+
+.videoPlayer i{
+    text-align: center;
+    line-height: 58px; 
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.45s;
+}
+
+.videoPlayer i:hover{
+    color: black;
+}
+
+.text h6{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+/* hero section css ends */
+/* journey Section css starts */
+
+.journey-heading{
+    margin-top: 70px;
+}
+
+.journey-heading h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: oswald;
+    font-weight: 600;
+}
+
+.journey-heading h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: oswald;
+}
+
+.journey-cnt{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.slide img{
+    width: 100%;
+    display: block; 
+    border-radius: 8px;
+    scale: 0.9;
+    transition: 0.45s ease;
+}
+
+
+.slide.slick-center img{
+    scale: 1;
+}
+
+.slide{
+    padding: 0 10px;
+    position: relative;
+   
+}
+
+.leftArrow,
+.rightArrow{
+    position: absolute;
+    top: 175%;
+    background-color: #fff;
+    color: black;
+    font-size: 30px;
+    border: 1px solid #555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 999;
+    line-height: 58px;
+    cursor: pointer;
+}
+
+.leftArrow{
+    left: 25px;
+}
+
+.rightArrow{
+    right: 25px;
+
+}
+
+
+.UpCnt{
+    position: absolute;
+    text-align: center;
+    font-family: oswald;
+    inset: 0;
+    display: grid;
+    place-content: center;
+    transform: translateY(40%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.85s;     
+}
+
+.slide.slick-center .UpCnt{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.85s; 
+}
+
+
+.UpCnt h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.customDots{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.customDots li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1px;
+   
+}
+
+.customDots li button{
+    width: 13px;
+    height: 13px;
+    background-color: #333;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.45s;
+}
+
+.customDots li.slick-active button{
+    background-color: crimson;
+    width: 40px;
+}
+
+/* journey section css ends */
