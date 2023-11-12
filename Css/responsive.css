@@ -6,7 +6,6 @@
 
     .overlay {
         margin-left: 425px;
-        height: 850px;
     }
 
     .navbar-brand img {
@@ -41,7 +40,7 @@
         font-size: 28px;
     }
     .leftArrow, .rightArrow {
-        top: 153%;
+        top: 155%;
         font-size: 20px;
         width: 45px;
         height: 45px;
